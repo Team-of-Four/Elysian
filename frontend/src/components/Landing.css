@@ -1,0 +1,31 @@
+.home{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home__container{
+    color: black;
+    width: 60px;
+    height: 60px;
+    padding: 50px;
+    margin-top: 30vh;
+    margin-right: 10vw;
+    cursor: pointer;
+    transition-duration: 100ms  ;
+    background-color: rgba(245, 245, 245, 1);
+    opacity: .4;
+    border-radius: 100
+}
+
+.home__container:hover {
+    transform: scale(1.5);
+}
+
+.home__container>p{
+    text-align:center;
+}
+
+/* .home >h1{ */

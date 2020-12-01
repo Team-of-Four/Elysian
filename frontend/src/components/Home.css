@@ -1,0 +1,25 @@
+.home1{
+    display: flex;
+    height: 100vh;
+    width: auto;
+}
+
+.paper{
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 2px 10px;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+#city-select{
+    width: 100px;
+}
+
+.search{
+    margin-top: 20px;
+}
